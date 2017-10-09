@@ -8,6 +8,7 @@
 
 import UIKit
 
+//
 //テーブルビューに関係する定数
 struct GuidanceTableStruct {
     static let cellCount: Int = 5
@@ -87,6 +88,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //Xibファイルを元にデータを作成する
         let cell = tableView.dequeueReusableCell(withIdentifier: "guidanceCell") as? guidanceCell
+        
         
         //取得したデータを読み込ませる
         //配列 → 0番目：タイトル, 1番目：説明文,
